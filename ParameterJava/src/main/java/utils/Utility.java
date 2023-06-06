@@ -16,7 +16,7 @@ public class Utility {
 		FileInputStream file = new FileInputStream("D:\\AUOMATION ALL\\SS\\Screenshots\\TC123.xlsx");
 		
 		Cell getCell = WorkbookFactory.create(file).getSheet(sheetName).getRow(row).getCell(cell);
-		
+		Cell getCell = WorkbookFactory.create(file).getSheet(sheetName).getRow(row).getCell(cell);
 		try {
 			data = getCell.getStringCellValue();
 		}
