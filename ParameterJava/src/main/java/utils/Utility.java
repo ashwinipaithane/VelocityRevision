@@ -19,6 +19,7 @@ public class Utility {
 		
 		try {
 			data = getCell.getStringCellValue();
+			data = getCell.getStringCellValue();
 		}
 		catch(IllegalStateException e)
 		{
